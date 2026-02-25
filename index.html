@@ -73,10 +73,378 @@
       z-index: 1;
     }
 
-    .hero h1 { font-size: 2rem; font-weight: 700; letter-spacing: 0.05em; position: relative; z-index: 1; } .hero .subtitle { font-size: 1rem; font-weight: 300; opacity: 0.85; margin-top: 12px; position: relative; z-index: 1; } .hero .meta { display: flex; justify-content: center; gap: 30px; margin-top: 24px; position: relative; z-index: 1; } .hero .meta-item { background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: 12px; padding: 12px 24px; font-size: 0.9rem; } .hero .meta-item strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.1em; opacity: 0.7; margin-bottom: 4px; } .container { max-width: 960px; margin: 0 auto; padding: 40px 24px; } .section { background: var(--card); border-radius: 16px; padding: 36px; margin-bottom: 28px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03); border: 1px solid var(--border); transition: transform 0.2s ease, box-shadow 0.2s ease; } .section:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); } .section-header { display: flex; align-items: center; gap: 14px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--bg); } .section-number { background: linear-gradient(135deg, var(--highlight), #ff8a80); color: white; width: 40px; height: 40px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.1rem; flex-shrink: 0; } .section-title { font-size: 1.25rem; font-weight: 700; color: var(--primary); } .badge { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.05em; vertical-align: middle; margin-left: 8px; } .badge-new { background: #dcfce7; color: #166534; } .badge-changed { background: #fef3c7; color: #92400e; } table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 16px 0; font-size: 0.9rem; } thead th { background: var(--primary); color: white; padding: 12px 16px; text-align: left; font-weight: 500; font-size: 0.8rem; letter-spacing: 0.05em; } thead th:first-child { border-radius: 10px 0 0 0; } thead th:last-child { border-radius: 0 10px 0 0; } tbody td { padding: 12px 16px; border-bottom: 1px solid var(--border); } tbody tr:last-child td { border-bottom: none; } tbody tr:nth-child(even) { background: #f7fafc; } tbody tr:hover { background: #edf2f7; } .weight-bar { display: flex; align-items: center; gap: 8px; } .weight-bar .bar { height: 8px; border-radius: 4px; background: linear-gradient(90deg, var(--accent), var(--highlight)); transition: width 0.6s ease; } .weight-bar .label { font-weight: 600; font-size: 0.85rem; white-space: nowrap; min-width: 35px; } .visual-flow { background: linear-gradient(135deg, #f7fafc, #edf2f7); border-radius: 12px; padding: 28px; margin: 20px 0; font-family: 'Noto Sans JP', monospace; font-size: 0.85rem; line-height: 2; } .raise-table .positive { color: var(--success); font-weight: 700; } .raise-table .zero { color: var(--text-light); font-weight: 500; } .raise-table .negative { color: var(--danger); font-weight: 700; } .raise-table .carry { color: #6366f1; font-weight: 600; font-style: italic; } .callout { border-radius: 12px; padding: 18px 22px; margin: 20px 0; font-size: 0.9rem; line-height: 1.7; display: flex; gap: 12px; align-items: flex-start; } .callout-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 2px; } .callout-warning { background: #fff7ed; border: 1px solid #fed7aa; color: #9a3412; } .callout-info { background: #eff6ff; border: 1px solid #bfdbfe; color: #1e40af; } .callout-success { background: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; } .role-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0; } .role-card { border-radius: 14px; padding: 24px; text-align: center; } .role-card.manager { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; } .role-card.consultant { background: linear-gradient(135deg, #0f3460, #1a365d); color: white; } .role-card .role-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; opacity: 0.7; margin-bottom: 8px; } .role-card .role-amount { font-size: 1.8rem; font-weight: 700; margin-bottom: 4px; } .role-card .role-sub { font-size: 0.85rem; opacity: 0.8; } .role-card .role-budget { margin-top: 14px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, 0.15); font-size: 0.85rem; opacity: 0.9; } .faq-item { margin-bottom: 16px; padding: 20px; background: #f7fafc; border-radius: 12px; border-left: 4px solid var(--accent); } .faq-q { font-weight: 600; color: var(--primary); margin-bottom: 8px; } .faq-a { color: var(--text); font-size: 0.9rem; } .evidence-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 16px 0; } .evidence-card { background: #f7fafc; border: 1px solid var(--border); border-radius: 10px; padding: 16px; } .evidence-card h4 { font-size: 0.85rem; color: var(--accent); margin-bottom: 8px; display: flex; align-items: center; gap: 6px; } .evidence-card p { font-size: 0.82rem; color: var(--text-light); margin-bottom: 4px; } .footer { text-align: center; padding: 40px; color: var(--text-light); font-size: 0.85rem; } @media (max-width: 640px) { .hero { padding: 40px 20px 36px; } .hero h1 { font-size: 1.5rem; } .hero .meta { flex-direction: column; gap: 10px; } .section { padding: 24px 20px; } .role-grid { grid-template-columns: 1fr; } .evidence-grid { grid-template-columns: 1fr; } }
+    .hero .subtitle {
+      font-size: 1rem;
+      font-weight: 300;
+      opacity: 0.85;
+      margin-top: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero .meta {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero .meta-item {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 12px;
+      padding: 12px 24px;
+      font-size: 0.9rem;
+    }
+
+    .hero .meta-item strong {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.7;
+      margin-bottom: 4px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    .section {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 36px;
+      margin-bottom: 28px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.03);
+      border: 1px solid var(--border);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid var(--bg);
+    }
+
+    .section-number {
+      background: linear-gradient(135deg, var(--highlight), #ff8a80);
+      color: white;
+      width: 40px;
+      height: 40px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+
+    .badge-new {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .badge-changed {
+      background: #fef3c7;
+      color: #92400e;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin: 16px 0;
+      font-size: 0.9rem;
+    }
+
+    thead th {
+      background: var(--primary);
+      color: white;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 500;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+
+    thead th:first-child {
+      border-radius: 10px 0 0 0;
+    }
+
+    thead th:last-child {
+      border-radius: 0 10px 0 0;
+    }
+
+    tbody td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f7fafc;
+    }
+
+    tbody tr:hover {
+      background: #edf2f7;
+    }
+
+    .weight-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .weight-bar .bar {
+      height: 8px;
+      border-radius: 4px;
+      background: linear-gradient(90deg, var(--accent), var(--highlight));
+      transition: width 0.6s ease;
+    }
+
+    .weight-bar .label {
+      font-weight: 600;
+      font-size: 0.85rem;
+      white-space: nowrap;
+      min-width: 35px;
+    }
+
+    .visual-flow {
+      background: linear-gradient(135deg, #f7fafc, #edf2f7);
+      border-radius: 12px;
+      padding: 28px;
+      margin: 20px 0;
+      font-family: 'Noto Sans JP', monospace;
+      font-size: 0.85rem;
+      line-height: 2;
+    }
+
+    .raise-table .positive {
+      color: var(--success);
+      font-weight: 700;
+    }
+
+    .raise-table .zero {
+      color: var(--text-light);
+      font-weight: 500;
+    }
+
+    .raise-table .negative {
+      color: var(--danger);
+      font-weight: 700;
+    }
+
+    .raise-table .carry {
+      color: #6366f1;
+      font-weight: 600;
+      font-style: italic;
+    }
+
+    .callout {
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin: 20px 0;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .callout-icon {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .callout-warning {
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      color: #9a3412;
+    }
+
+    .callout-info {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      color: #1e40af;
+    }
+
+    .callout-success {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      color: #166534;
+    }
+
+    .role-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin: 20px 0;
+    }
+
+    .role-card {
+      border-radius: 14px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .role-card.manager {
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: white;
+    }
+
+    .role-card.consultant {
+      background: linear-gradient(135deg, #0f3460, #1a365d);
+      color: white;
+    }
+
+    .role-card .role-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      opacity: 0.7;
+      margin-bottom: 8px;
+    }
+
+    .role-card .role-amount {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    .role-card .role-sub {
+      font-size: 0.85rem;
+      opacity: 0.8;
+    }
+
+    .role-card .role-budget {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      font-size: 0.85rem;
+      opacity: 0.9;
+    }
+
+    .faq-item {
+      margin-bottom: 16px;
+      padding: 20px;
+      background: #f7fafc;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+    }
+
+    .faq-q {
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+
+    .faq-a {
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+
+    .evidence-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    .evidence-card {
+      background: #f7fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .evidence-card h4 {
+      font-size: 0.85rem;
+      color: var(--accent);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .evidence-card p {
+      font-size: 0.82rem;
+      color: var(--text-light);
+      margin-bottom: 4px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-light);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding: 40px 20px 36px;
+      }
+
+      .hero h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero .meta {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .section {
+        padding: 24px 20px;
+      }
+
+      .role-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .evidence-grid {
+        grid-template-columns: 1fr;
+      }
+    }
   </style>
 </head>
+
 <body>
+
   <!-- ========== HERO ========== -->
   <div class="hero">
     <h1>18期下期 評価制度変更のご案内</h1>
@@ -89,14 +457,17 @@
   </div>
 
   <div class="container">
+
     <!-- ========== セクション1 ========== -->
     <div class="section">
       <div class="section-header">
         <div class="section-number">1</div>
         <div class="section-title">評価軸の再構成<span class="badge badge-changed">改定</span></div>
       </div>
-      <p style="margin-bottom:20px;">これまでのアウトプット100%評価から、<strong>インプット（学習・共有）15%</strong>を新設し、バランスの取れた評価体系に移行します。</p>
-      <h3 style="font-size:1rem; font-weight:600; margin-bottom:12px; color:var(--accent);">アウトプット評価（85%）</h3>
+
+      <p style="margin-bottom:20px;">これまでのアウトプット100%評価から、<strong>インプット（学習・共有）10%</strong>を新設し、バランスの取れた評価体系に移行します。</p>
+
+      <h3 style="font-size:1rem; font-weight:600; margin-bottom:12px; color:var(--accent);">アウトプット評価（90%）</h3>
       <table>
         <thead>
           <tr>
@@ -110,38 +481,102 @@
           <tr>
             <td>平均担当社数</td>
             <td>25社</td>
-            <td><div class="weight-bar"><div class="bar" style="width:60px"></div><span class="label">15%</span></div></td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:60px"></div><span class="label">15%</span>
+              </div>
+            </td>
             <td>月末時点の担当社数平均</td>
           </tr>
           <tr>
             <td>申請件数</td>
-            <td>42件/半期</td>
-            <td><div class="weight-bar"><div class="bar" style="width:100px"></div><span class="label">25%</span></div></td>
+            <td>7件/月（42件/半期）</td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:120px"></div><span class="label">30%</span>
+              </div>
+            </td>
             <td>レベル制カウント（L1〜L6）</td>
           </tr>
           <tr>
             <td>CS紹介数</td>
             <td>3件</td>
-            <td><div class="weight-bar"><div class="bar" style="width:40px"></div><span class="label">10%</span></div></td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:40px"></div><span class="label">10%</span>
+              </div>
+            </td>
             <td>期中の紹介獲得件数</td>
           </tr>
           <tr>
             <td>CS継続率</td>
             <td>88%</td>
-            <td><div class="weight-bar"><div class="bar" style="width:60px"></div><span class="label">15%</span></div></td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:60px"></div><span class="label">15%</span>
+              </div>
+            </td>
             <td>期末時点の継続率</td>
           </tr>
           <tr>
             <td>粗利</td>
             <td>個別設定</td>
-            <td><div class="weight-bar"><div class="bar" style="width:60px"></div><span class="label">15%</span></div></td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:60px"></div><span class="label">15%</span>
+              </div>
+            </td>
             <td>成果報酬＋TORERUN割当</td>
           </tr>
           <tr>
             <td>MTG実施率 <span class="badge badge-new">NEW</span></td>
             <td>90%</td>
-            <td><div class="weight-bar"><div class="bar" style="width:20px"></div><span class="label">5%</span></div></td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:20px"></div><span class="label">5%</span>
+              </div>
+            </td>
             <td>定例MTG実施数÷担当社数</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 style="font-size:1rem; font-weight:600; margin:24px 0 12px; color:var(--accent);">インプット評価（10%）<span class="badge badge-new">NEW</span></h3>
+      <table>
+        <thead>
+          <tr>
+            <th>評価項目</th>
+            <th>基準（達成=100%）</th>
+            <th>重み</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>知識更新</td>
+            <td>月1本以上の制度レポート提出（6本/半期）</td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:16px"></div><span class="label">4%</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>スキルインプット <span class="badge badge-changed">選択制</span></td>
+            <td>A枠・B枠から半期で2つ選択（詳細は下記セクション参照）</td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:12px"></div><span class="label">3%</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>業務改善提案</td>
+            <td>期中1件以上の改善提案→実行</td>
+            <td>
+              <div class="weight-bar">
+                <div class="bar" style="width:12px"></div><span class="label">3%</span>
+              </div>
+            </td>
           </tr>
         </tbody>
       </table>
@@ -153,66 +588,176 @@
         <div class="section-number">2</div>
         <div class="section-title">申請件数のカウント方式（レベル制）<span class="badge badge-changed">改定</span></div>
       </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;">
+        <div style="background:linear-gradient(135deg,var(--accent),#1a365d);color:white;border-radius:12px;padding:20px;text-align:center;">
+          <div style="font-size:0.75rem;opacity:0.7;letter-spacing:0.1em;">申請目標</div>
+          <div style="font-size:2rem;font-weight:700;">7件<span style="font-size:1rem;font-weight:400;">/月</span></div>
+          <div style="font-size:0.8rem;opacity:0.8;margin-top:4px;">申請 or 奨励金当選後・契約書締結ベース</div>
+        </div>
+        <div style="background:linear-gradient(135deg,#92400e,#b45309);color:white;border-radius:12px;padding:20px;text-align:center;">
+          <div style="font-size:0.75rem;opacity:0.7;letter-spacing:0.1em;">最低目標</div>
+          <div style="font-size:2rem;font-weight:700;">5件<span style="font-size:1rem;font-weight:400;">/月</span></div>
+          <div style="font-size:0.8rem;opacity:0.8;margin-top:4px;">乖離20%超で<strong>要改善レポート</strong></div>
+        </div>
+      </div>
+
       <table>
         <thead>
           <tr>
             <th>難易度</th>
             <th>対象補助金（採択率目安）</th>
-            <th>件数カウント</th>
-            <th>標準時間</th>
+            <th style="white-space:nowrap;">件数カウント</th>
+            <th style="white-space:nowrap;">標準時間</th>
           </tr>
         </thead>
         <tbody>
           <tr style="background:#fef2f2;">
-            <td><strong>レベル6</strong></td>
+            <td><strong style="color:var(--highlight);">レベル6</strong></td>
             <td>中小企業成長加速化補助金(10%)、大規模成長投資補助金(40%)</td>
-            <td>4件</td>
-            <td>20h〜25h</td>
+            <td style="text-align:center;"><strong>4件</strong></td>
+            <td style="text-align:center;">20h〜25h</td>
           </tr>
           <tr style="background:#fff7ed;">
-            <td><strong>レベル5</strong></td>
+            <td><strong style="color:#ea580c;">レベル5</strong></td>
             <td>新事業進出補助金(30%)、新事業ものづくり補助金</td>
-            <td>3件</td>
-            <td>15h〜20h</td>
+            <td style="text-align:center;"><strong>3件</strong></td>
+            <td style="text-align:center;">15h〜20h</td>
           </tr>
           <tr style="background:#fefce8;">
-            <td><strong>レベル4</strong></td>
+            <td><strong style="color:#ca8a04;">レベル4</strong></td>
             <td>ものづくり補助金(30%)、省力化投資補助金 一般型(50%)、環境省補助金、製品改良・躍進的な等事業計画書ガッツリ系</td>
-            <td>2件</td>
-            <td>10h〜15h</td>
+            <td style="text-align:center;"><strong>2件</strong></td>
+            <td style="text-align:center;">10h〜15h</td>
           </tr>
           <tr>
-            <td><strong>レベル3</strong></td>
+            <td><strong style="color:var(--accent);">レベル3</strong></td>
             <td>持続化補助金(40%)、経営展開(15%)、厚労省助成金、東京都要事業計画書補助金、魅力ある・働きやすい職場づくり奨励金、SII、観光庁補助金</td>
-            <td>1件</td>
-            <td>5h〜10h</td>
+            <td style="text-align:center;"><strong>1件</strong></td>
+            <td style="text-align:center;">5h〜10h</td>
           </tr>
           <tr style="background:#f0fdf4;">
-            <td><strong>レベル2</strong></td>
+            <td><strong style="color:var(--success);">レベル2</strong></td>
             <td>IT導入補助金(55%)、省力化投資補助金カタログ型(80%)、東京都デジタルツール(75%)、リスキリングキャリアデザイン奨励金等</td>
-            <td>0.5件</td>
-            <td>5h以下</td>
+            <td style="text-align:center;"><strong>0.5件</strong></td>
+            <td style="text-align:center;">5h以下</td>
           </tr>
           <tr style="background:#f0fdf4;">
-            <td><strong>レベル1</strong></td>
-            <td>カスハラ奨励金(90%)</td>
-            <td>0.25件</td>
-            <td>3h以下</td>
+            <td><strong style="color:#16a34a;">レベル1</strong></td>
+            <td>カスハラ奨励金(90%) ※インセンティブ吐き出し分を割引評価</td>
+            <td style="text-align:center;"><strong>0.25件</strong></td>
+            <td style="text-align:center;">3h以下</td>
           </tr>
         </tbody>
       </table>
+
+      <div class="callout callout-warning">
+        <span class="callout-icon">📝</span>
+        <div>
+          <strong>申請管理シートの記入ルール：</strong><br>
+          ・申請確率が高いもの（顧客から申請意向が確認済み）→ <strong>補助金名のみ記載</strong><br>
+          ・申請確率が不透明なもの（公募待ち・顧客意向不明だが提案価値あり）→ 補助金名の頭に<strong>「(仮)」</strong>を付記<br>
+          ・(仮)の顧客は、備考欄に<strong>「いつ(仮)が外れる見通しか」</strong>を記載<br>
+          ・申請サポートが外注の場合は、「申請サポート予定者」欄に外注先名、担当者欄に担当先名を併記
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        <span class="callout-icon">📊</span>
+        <div><strong>カウント例:</strong> レベル6案件1件 = 4件分カウント。月7件目標の場合、L6×1件(4件) + L3×2件(2件) + L2×2件(1件) = 7件で達成。</div>
+      </div>
     </div>
 
     <!-- ========== セクション3: スキル定義 ========== -->
     <div class="section">
       <div class="section-header">
         <div class="section-number">3</div>
-        <div class="section-title">スキル習得・ナレッジ共有の定義<span class="badge badge-new">NEW</span></div>
+        <div class="section-title">スキルインプット — A枠・B枠 選択制<span class="badge badge-new">NEW</span></div>
       </div>
-      <h3 style="font-size:1rem; font-weight:600; margin-bottom:12px; color:var(--accent);">スキル習得（いずれか1つ以上）</h3>
-      <div class="evidence-grid">
-        <div class="evidence-card"><h4>📜 資格取得</h4><p>行政書士、中小企業診断士等</p></div>
-        <div class="evidence-card"><h4>🛠️ ツール習得</h4><p>生成AI、RPA等の導入</p></div>
+
+      <p style="margin-bottom:20px;">6ヶ月で <strong>A枠・B枠の中から2つチョイス</strong> =
+        100%評価。<br>学んだ内容のレポートを作成し、<strong>木曜の勉強会でシェア</strong>するところまでが達成条件です。</p>
+
+      <div class="role-grid">
+        <div style="background:linear-gradient(135deg,#7c3aed,#6d28d9);color:white;border-radius:14px;padding:24px;">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.15em;opacity:0.7;margin-bottom:8px;">
+            A枠</div>
+          <div style="font-size:1.3rem;font-weight:700;margin-bottom:12px;">🤖 AIインプット</div>
+          <div style="font-size:0.85rem;opacity:0.9;line-height:1.7;">
+            <p style="margin-bottom:8px;">参考動画集・学習リソースから選択し、その分野を<strong>業務に活かす</strong></p>
+            <div style="background:rgba(255,255,255,0.1);border-radius:8px;padding:12px;margin-top:8px;font-size:0.8rem;">
+              <strong>参考リソース:</strong><br>
+              ・<a href="https://fincs.jp/plan/6883693537748780257" style="color:#c4b5fd;" target="_blank">AI木曜会</a><br>
+              ・ユニコスクール（招待制・詳細は高橋まで）<br>
+              ・<a href="https://brain-market.com/u/notan/a/b1EjM1MjMgoTZsNWa0JXY" style="color:#c4b5fd;" target="_blank">Antigravity × Obsidian 第2の脳 完全ロードマップ</a>
+            </div>
+          </div>
+        </div>
+        <div style="background:linear-gradient(135deg,#0369a1,#0284c7);color:white;border-radius:14px;padding:24px;">
+          <div style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.15em;opacity:0.7;margin-bottom:8px;">
+            B枠</div>
+          <div style="font-size:1.3rem;font-weight:700;margin-bottom:12px;">📘 事業計画書策定スキル</div>
+          <div style="font-size:0.85rem;opacity:0.9;line-height:1.7;">
+            <p style="margin-bottom:8px;">財務・フレームワーク・市場調査・マーケティングについての動画や本から学習</p>
+            <div style="background:rgba(255,255,255,0.1);border-radius:8px;padding:12px;margin-top:8px;font-size:0.8rem;">
+              <strong>参考リソース:</strong><br>
+              ・CPAラーニング<br>
+              ・MANABee Campus オンデマンド講座<br>
+              ・その他、財務/マーケティング関連書籍・動画
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        <span class="callout-icon">💡</span>
+        <div>
+          <strong>達成条件（2つとも満たすこと）:</strong><br>
+          ① 学習内容の<strong>レポートを作成</strong>する<br>
+          ② <strong>木曜の勉強会で共有</strong>する
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>選択パターン</th>
+            <th>内容</th>
+            <th>評価</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>A枠×2</td>
+            <td>AI分野から2テーマ</td>
+            <td><strong>100%</strong></td>
+          </tr>
+          <tr>
+            <td>B枠×2</td>
+            <td>事業計画書分野から2テーマ</td>
+            <td><strong>100%</strong></td>
+          </tr>
+          <tr>
+            <td>A枠×1 + B枠×1</td>
+            <td>各分野から1テーマずつ</td>
+            <td><strong>100%</strong></td>
+          </tr>
+          <tr style="background:#fef2f2;">
+            <td>1つのみ</td>
+            <td>—</td>
+            <td style="color:var(--danger);font-weight:600;">50%</td>
+          </tr>
+          <tr style="background:#fef2f2;">
+            <td>未実施</td>
+            <td>—</td>
+            <td style="color:var(--danger);font-weight:600;">0%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="callout callout-warning">
+        <span class="callout-icon">⚠️</span>
+        <div>「レポート作成」＋「勉強会での共有」の<strong>両方が揃って初めて1カウント</strong>です。勉強会のみ・レポートのみでは達成になりません。</div>
       </div>
     </div>
 
@@ -222,7 +767,8 @@
         <div class="section-number">4</div>
         <div class="section-title">昇給テーブル<span class="badge badge-changed">改定</span></div>
       </div>
-      <table>
+
+      <table class="raise-table">
         <thead>
           <tr>
             <th>総合達成率</th>
@@ -231,15 +777,161 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>120%以上</td><td class="carry">→ 持ち越し</td><td>超過分を翌期に加算</td></tr>
-          <tr><td>100%以上</td><td class="positive">+10,000円</td><td>基準値達成</td></tr>
-          <tr><td>90%未満</td><td class="negative">▲10,000円</td><td>要改善</td></tr>
+          <tr>
+            <td><strong>120%以上</strong></td>
+            <td class="carry">→ 翌期持ち越し</td>
+            <td>超過分を翌期の粗利指標に上乗せ</td>
+          </tr>
+          <tr>
+            <td>110%以上〜120%未満</td>
+            <td class="positive">+20,000円</td>
+            <td>基準値より100%増</td>
+          </tr>
+          <tr>
+            <td>100%以上〜110%未満</td>
+            <td class="positive">+10,000円</td>
+            <td>基準値より50%増</td>
+          </tr>
+          <tr>
+            <td>90%以上〜100%未満</td>
+            <td class="zero">0円</td>
+            <td>現状維持</td>
+          </tr>
+          <tr>
+            <td>80%以上〜90%未満</td>
+            <td class="negative">▲10,000円</td>
+            <td>基準値より50%減</td>
+          </tr>
+          <tr>
+            <td>80%未満</td>
+            <td class="negative">▲20,000円</td>
+            <td>基準値より100%減</td>
+          </tr>
         </tbody>
       </table>
+
+      <div class="callout callout-success">
+        <span class="callout-icon">✨</span>
+        <div><strong>120%持ち越しルール:</strong> 例えば総合達成率125%の場合、5%分を翌期（19期上期）の粗利指標に上乗せで持ち越し。頑張りを無駄にしない仕組みです。</div>
+      </div>
     </div>
+
+    <!-- ========== セクション5: 役職別 ========== -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-number">5</div>
+        <div class="section-title">役職別 昇給基準・予算<span class="badge badge-changed">改定</span></div>
+      </div>
+
+      <div class="role-grid">
+        <div class="role-card manager">
+          <div class="role-label">マネージャー</div>
+          <div class="role-amount">¥30,000<span style="font-size:0.8rem;font-weight:400;">（個人）</span></div>
+          <div class="role-sub">+ ¥10,000（人）※個人達成率に連動</div>
+          <div class="role-budget">
+            粗利予算: 給与 × <strong>3.5倍</strong>（特例）<br>
+            <span style="font-size:0.8rem;opacity:0.7;">※通常期間は2.5倍</span>
+          </div>
+        </div>
+        <div class="role-card consultant">
+          <div class="role-label">コンサルタント</div>
+          <div class="role-amount">¥20,000</div>
+          <div class="role-sub">昇給基準額</div>
+          <div class="role-budget">
+            粗利予算: 給与 × <strong>2.5倍</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout callout-info">
+        <span class="callout-icon">📌</span>
+        <div>マネージャーの「人」基準（10,000円）は、マネージャー自身の個人達成率に応じて連動します。部下の成果をマネジメントする動機づけです。</div>
+      </div>
+    </div>
+
+    <!-- ========== セクション6: 評価フロー ========== -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-number">6</div>
+        <div class="section-title">評価フロー全体像</div>
+      </div>
+
+      <div class="visual-flow">
+        <div style="text-align:center; margin-bottom:16px;">
+          <span style="background:var(--accent);color:white;padding:6px 16px;border-radius:8px;font-size:0.85rem;font-weight:600;">アウトプット
+            90%</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin-bottom:20px;">
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            担当社数<br><strong>15%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            申請件数<br><strong>30%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            紹介数<br><strong>10%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            継続率<br><strong>15%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            粗利<br><strong>15%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);position:relative;">
+            MTG実施率<br><strong>5%</strong><span class="badge badge-new" style="position:absolute;top:4px;right:4px;margin:0;">NEW</span></div>
+        </div>
+        <div style="text-align:center;font-size:1.5rem;margin:8px 0;">＋</div>
+        <div style="text-align:center; margin:16px 0 12px;">
+          <span style="background:var(--success);color:white;padding:6px 16px;border-radius:8px;font-size:0.85rem;font-weight:600;">インプット
+            10%</span>
+          <span class="badge badge-new" style="margin-left:6px;">NEW</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin-bottom:20px;">
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            知識更新<br><strong>4%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            スキルインプット<br><strong>3%</strong></div>
+          <div style="background:white;border-radius:8px;padding:10px;border:1px solid var(--border);">
+            改善<br><strong>3%</strong></div>
+        </div>
+        <div style="text-align:center;font-size:1.5rem;margin:8px 0;">↓</div>
+        <div style="text-align:center;">
+          <span style="background:var(--highlight);color:white;padding:10px 28px;border-radius:10px;font-size:1rem;font-weight:700;display:inline-block;">総合達成率
+            → 昇給テーブル適用</span>
+        </div>
+      </div>
+
+      <div class="callout callout-info" style="margin-top:16px;">
+        <span class="callout-icon">📊</span>
+        <div>TORERUN担当実績・成果報酬実績は<strong>評価指標としてのみ使用</strong>し、変動給としては扱いません。評価スコアに反映 → 昇給額に連動する「間接反映」の仕組みです。</div>
+      </div>
+    </div>
+
+    <!-- ========== FAQ ========== -->
+    <div class="section">
+      <div class="section-header">
+        <div class="section-number">?</div>
+        <div class="section-title">よくある質問</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Q. スキルインプットのA枠・B枠はどう組み合わせてもOK？</div>
+        <div class="faq-a">A. はい。A枠×2、B枠×2、A+B×1のいずれでも<strong>2つ選べば100%達成</strong>です。ただし「レポート作成」+「木曜勉強会で共有」の両方が必要です。
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q. 120%を超えた分はどうなる？</div>
+        <div class="faq-a">A. 超過分は翌期の粗利基準に上乗せで持ち越せます。例えば125%達成なら、5%分を翌期に繰り越し。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q. マネージャーの「人」基準とは？</div>
+        <div class="faq-a">A. マネージャー自身の個人達成率に応じて、部下育成に関する昇給（10,000円ベース）も連動する仕組みです。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Q. MTG実施率のデータはどこから取る？</div>
+        <div class="faq-a">A. 申請管理シートの既存データから自動集計します。新たな入力作業は発生しません。</div>
+      </div>
+    </div>
+
   </div>
 
   <div class="footer">
     <p>株式会社HJP Corporation — 18期下期 評価制度変更のご案内</p>
+    <p style="margin-top:4px;font-size:0.8rem;">適用開始: 2026年2月〜 ｜ 評価実施: 2026年7月末</p>
   </div>
 </body></html>
